@@ -19,4 +19,9 @@ public class Controller01 {
     public void method3(){
         System.out.println("Path2로 요청 왔을 시 응답!");
     }
+
+    @RequestMapping("path3/fuck")
+    public void method4(){
+        System.out.println("wtf!!");
+    }
 }
