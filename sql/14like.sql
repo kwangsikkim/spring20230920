@@ -6,7 +6,7 @@ SELECT * FROM customers
 WHERE CustomerName LIKE '%ch%';
 
 -- LIKE : 검색
--- %, _ 기호와 함께 사용
+-- %, _ 기호(wildcard)와 함께 사용
 
 SELECT * FROM customers
 WHERE CustomerName LIKE 'the%';
@@ -32,7 +32,7 @@ WHERE LastName LIKE '____';
 
 SELECT * FROM employees
 WHERE LastName LIKE '_e%';
--- 두번째 글자가 e인 직원의 LastName
+-- LastName의 두번째 글자가 e인 직원
 
 -- 예) ch로 시작하는 상품명 조회
 SELECT * FROM products
@@ -56,6 +56,7 @@ WHERE CustomerName LIKE '%red%';
 SELECT * FROM customers
 WHERE ContactName LIKE '%red%';
 
+SELECT * FROM products;
 
 
 
