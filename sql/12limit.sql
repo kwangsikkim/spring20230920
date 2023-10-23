@@ -83,9 +83,9 @@ LIMIT 10, 5;
 
 # 한 페이지가 n개의 레코드(row)를 보여주면
 # m번째 페이지 조회
-# LIMIT (m-1)*n, n
+# LIMIT (m-1)*n
 
-
+SELECT * FROM employees ORDER BY 1 DESC ;
 
 
 
